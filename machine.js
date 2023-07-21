@@ -25,8 +25,6 @@ const SYMBOLS_VALUES = {
     D: 2,
 }
 
-
-
 const Deposit = () => {
     while (true) {
         const depositAmount = prompt("Enter a deposit amount: ")
@@ -113,7 +111,6 @@ const printSlotMachine = (rows) => {
         console.log(rowString)
     }
 }
-
 
 const getWinnings = (rows, bet, lines) => {
     let winnings = 0;
